@@ -1,0 +1,51 @@
+.container{
+
+    width: 200px;
+    height: 310px;
+    background: whitesmoke;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.container div:not(.img){
+    width: 190px;
+    height: 50px;
+    background: rebeccapurple;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+.container div:hover:not(.img){
+    background-color: deeppink;
+}
+
+.container .img img{
+    width: 50px;
+    height: 50px;
+    background-color: rebeccapurple;
+    border-radius: 30px;
+    margin: 0 75px;
+}
+.container h2{
+    color: rebeccapurple;
+    font-family: "robot",sans-serif;
+    font-size: 15px;
+    margin: 0 73px;
+}
+
+.container h3{
+    color: whitesmoke;
+    font-family: "robot",sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    margin: 0 ;
+}
+
+.container h2:hover{
+    color: deeppink;
+}
+
+body{
+    background: royalblue;
+}
